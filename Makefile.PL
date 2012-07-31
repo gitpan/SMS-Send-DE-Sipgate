@@ -15,6 +15,7 @@ WriteMakefile(
         'Test::More' => 0,
         'HTTP::Cookies' => 0,
         'XMLRPC::Lite'  => 0,
+        'SMS::Send' => 0.02,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'SMS-Send-DE-Sipgate-*' },
