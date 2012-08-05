@@ -1,9 +1,12 @@
 package SMS::Send::DE::Sipgate;
-
+BEGIN {
+  $SMS::Send::DE::Sipgate::VERSION = '0.03';
+}
 # ABSTRACT: SMS::Send driver to send via sipgate.de
 
-use warnings;
 use strict;
+use warnings;
+
 use HTTP::Cookies;
 use XMLRPC::Lite;
 
@@ -15,12 +18,7 @@ SMS::Send::DE::Sipgate - An SMS::Send driver for the sipgate.de service.
 
 =head1 VERSION
 
-Version 0.02
-
-=cut
-
-our $VERSION = '0.02';
-
+version 0.03
 
 =head1 SYNOPSIS
 
